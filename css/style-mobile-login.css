@@ -1,0 +1,19 @@
+@media screen and (max-width: 760px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    background-image: url("../assets/img/mollie-sivaram-_1gBVgy8gIU-unsplash.png");
+  }
+
+  .right .title {
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .form-container {
+    background-color: white;
+    width: 70%;
+  }
+}
