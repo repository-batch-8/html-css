@@ -109,7 +109,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .remember-forgot .remember {
@@ -145,6 +144,7 @@
 
 .form-container .btn-group {
   display: flex;
+  margin-top: 40px;
 }
 
 .btn-group .btn-left,

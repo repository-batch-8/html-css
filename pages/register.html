@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Library | Login</title>
+  <title>Library | Register</title>
 
   <!-- External CSS -->
-  <link rel="stylesheet" href="./css/general.style.css">
-  <link rel="stylesheet" href="./css/login.style.css">
+  <link rel="stylesheet" href="../css/general.style.css">
+  <link rel="stylesheet" href="../css/login.style.css">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,15 +27,23 @@
     <div class="right">
       <div class="top">
         <div class="logo">
-          <img src="./assets/svg/bookshelf.svg" alt="logo" width="50">
+          <img src="../assets/svg/bookshelf.svg" alt="logo" width="50">
         </div>
         <div class="form-container">
           <div class="form-header">
-            <h1>Login</h1>
-            <p>Welcome Back, Please Login <br>
-              to your account</p>
+            <h1>Register</h1>
+            <p>Welcome Back, Please Register <br>
+              to create account</p>
           </div>
           <div class="form-group">
+            <div class="input-group">
+              <label for="username">Username</label>
+              <input type="username" name="username" id="username" placeholder="Rebecca">
+            </div>
+            <div class="input-group">
+              <label for="fullname">Fullname</label>
+              <input type="fullname" name="fullname" id="fullname" placeholder="Rebecca Poetri Rizky">
+            </div>
             <div class="input-group">
               <label for="email">Email Address</label>
               <input type="email" name="email" id="email" placeholder="rebecca@example.com">
@@ -45,18 +53,9 @@
               <input type="password" name="password" id="password" placeholder="Password">
             </div>
           </div>
-          <div class="remember-forgot">
-            <div class="remember">
-              <input type="checkbox" name="remember" id="remember">
-              <label for="remember">Remember me</label>
-            </div>
-            <div class="forgot">
-              <a href="#forgot">Forgot Password</a>
-            </div>
-          </div>
           <div class="btn-group">
-            <a href="#" class="btn-left">Login</a>
-            <a href="./pages/register.html" class="btn-right">Register</a>
+            <a href="#" class="btn-left">Register</a>
+            <a href="../index.html" class="btn-right">Login</a>
           </div>
         </div>
       </div>
