@@ -149,3 +149,35 @@
   font-weight: 700;
   line-height: normal;
 }
+
+/* slider */
+.main-container .slider {
+  margin-top: 1rem;
+}
+
+.slider .carousel-cell {
+  width: 50%;
+  height: 290px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.carousel-cell .cover-book {
+  object-fit: cover;
+  object-position: center 10%;
+  width: 100%;
+}
+
+.carousel-cell .desc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 0px 0px 15px 15px;
+  background: rgba(0, 0, 0, 0.2);
+}

@@ -17,6 +17,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <!-- Flickity -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body>
@@ -67,10 +70,41 @@
           <span>Library</span>
         </div>
       </nav>
-      <div class="slider">slider</div>
+
+      <div class="slider" data-flickity='{"wrapAround":true}'>
+        <div class="carousel-cell">
+          <img src="https://cdn.gramedia.com/uploads/items/9786020523316_Melangkah_UV_Spot_R4-1.jpg" alt="book1"
+            class="cover-book">
+          <div class="desc">Melangkah</div>
+        </div>
+        <div class="carousel-cell">
+          <img src="https://s3-ap-southeast-1.amazonaws.com/ebook-previews/40678/143505/1.jpg" alt="book1"
+            class="cover-book">
+          <div class="desc">Laut Bercerita</div>
+        </div>
+        <div class="carousel-cell">
+          <img src="https://cdn.gramedia.com/uploads/items/WhatsApp_Image_2021-12-20_at_1.42.06_PM.jpeg" alt="book1"
+            class="cover-book carousel-cell">
+          <div class="desc">Hai, Miiko!</div>
+        </div>
+        <div class="carousel-cell">
+          <img src="https://cdn.gramedia.com/uploads/items/Home_Sweet_Loan_cov.jpg" alt="book1"
+            class="cover-book carousel-cell">
+          <div class="desc">Home Sweet Loan</div>
+        </div>
+        <div class="carousel-cell">
+          <img src="https://cdn.gramedia.com/uploads/picture_meta/2023/2/14/iddphd9rbufdfjabf4owuf.jpg" alt="book1"
+            class="cover-book carousel-cell">
+          <div class="desc">The Girl who Fell Beneath the Sea</div>
+        </div>
+      </div>
+
       <div class="list-book">list book</div>
     </main>
   </main>
+
+  <!-- flickity -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
